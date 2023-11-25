@@ -1,1 +1,1 @@
-console.log("Hello to ODIN Restaurant");
+(()=>{"use strict";!function(){const e=document.getElementById("content"),t=document.createElement("img");t.src="../images/pizza_bg.jpg",e.appendChild(t)}()})();

@@ -1,1 +1,3 @@
-console.log('Hello to ODIN Restaurant');
+import { loadHomePage } from "./home";
+
+loadHomePage();
