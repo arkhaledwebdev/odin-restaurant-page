@@ -12,8 +12,10 @@ function loadHomePage(){
     quality_img.classList.add('img-icon');
     const quality_title = document.createElement('div');
     quality_title.textContent = "High quality pizza";
+    quality_title.classList.add('item-title');
     const quality_description = document.createElement('div');
     quality_description.textContent = 'Our pizza is of the highest quality in town, all the ingredient is chosen fresh and of high quality';
+    quality_description.classList.add('item-description');
     quality.appendChild(quality_img);
     quality.appendChild(quality_title);
     quality.appendChild(quality_description);
@@ -26,8 +28,10 @@ function loadHomePage(){
     original_img.classList.add('img-icon');
     const original_title = document.createElement('div');
     original_title.textContent = "Original recipes"
+    original_title.classList.add('item-title');
     const original_description = document.createElement('div');
     original_description.textContent = 'Our menu contain original recipes with unique combinations not found in any other place'
+    original_description.classList.add('item-description');
     original.appendChild(original_img);
     original.appendChild(original_title);
     original.appendChild(original_description);
@@ -39,9 +43,11 @@ function loadHomePage(){
     delivery_img.src = '../images/restaurant-icon-delivery.png'
     delivery_img.classList.add('img-icon');
     const delivery_title = document.createElement('div');
-    delivery_title.textContent = "Fastest delivery"
+    delivery_title.textContent = "Fastest delivery";
+    delivery_title.classList.add('item-title');
     const delivery_description = document.createElement('div');
     delivery_description.textContent = 'Your order will be delivered as fast as possible'
+    delivery_description.classList.add('item-description');
     delivery.appendChild(delivery_img);
     delivery.appendChild(delivery_title);
     delivery.appendChild(delivery_description);
